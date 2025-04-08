@@ -1,0 +1,13 @@
+#include ...
+// Definición de funciones
+************** void insert(int item); // insert en base a prioridad
+int removeFirst(); // remove el primer elemento de la cola
+int removePrio(); // remove el primer elemento de la cola por prioridad
+void display(); // desplegar la cola
+int peek(); // peek el primer elemento de la cola
+void create(); // crea una cola priorizada con algunos elementos.
+// Definición de variables globales
+#define max 10 // capacidad de la cola
+int queArray[max]; // cola priorizada implementada como arreglo
+int front; // inicio de la cola
+int rear; // fin de la cola
